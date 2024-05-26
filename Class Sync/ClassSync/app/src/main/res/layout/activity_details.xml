@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1C1244"
+    tools:context=".Details">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="@drawable/ellipse_2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello "
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anonymous!"
+                        android:textColor="@color/primary"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/sgb"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Good Morning!"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/sgb"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/sgl"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:background="@drawable/assignment"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/sgm"
+                            android:textSize="20sp"
+                            android:text="Course : Digital Electronics">
+                        </TextView>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="-8dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:background="@color/white">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Topic: K-map"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deadline: 10 march 2024"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remaining: 2 Days , 5 hours"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submission Link: Click here"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description:"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                        android:textSize="18sp"
+                        android:fontFamily="@font/sgl"
+                        android:textColor="@color/black"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

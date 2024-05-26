@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1C1244"
+    android:fitsSystemWindows="true"
+    tools:context=".StudentLogin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse_1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello "
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/white"
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anonymous!"
+                        android:textColor="@color/primary"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/sgb" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to  "
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/sgb" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ClassSync."
+                        android:textColor="@color/primary"
+                        android:fontFamily="@font/sgb"
+                        android:textSize="24dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="40dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/sgr"
+                android:textColor="@color/white"
+                android:text="We're excited to have you on board. It seems like you haven't been assigned to any section yet." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="25dp"
+                android:paddingEnd="40dp"
+                android:paddingTop="10dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/sgr"
+                android:textColor="@color/white"
+                android:text="To get started, please contact your Class CR (Class Representative) for the Section Key and Password. Once assigned, you'll be able to access your section's resources and participate in activities." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="25dp"
+                android:paddingEnd="40dp"
+                android:paddingTop="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/sgr"
+                android:text="If you already have the Section Key and Password, please enter required information below to get assigned." />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student name:"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb" />
+
+                <EditText
+                    android:id="@+id/stdent_name"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="According to your ID"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb" />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Use your university mail"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Section key:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb" />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 61E"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textCapWords"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb" />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 123456"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:nestedScrollingEnabled="true"
+                    android:background="@drawable/rounded_input_background" />
+
+                <Button
+                    android:id="@+id/studentLogin"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Assign me to Section"
+                    android:background="@drawable/rounded_button_background"
+                    android:fontFamily="@font/sgb"
+                    android:layout_marginBottom="60dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

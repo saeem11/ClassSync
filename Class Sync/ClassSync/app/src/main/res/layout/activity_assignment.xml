@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#1C1244"
+tools:context=".Assignment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/ellipse_2"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello "
+                    android:fontFamily="@font/sgb"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anonymous!"
+                    android:textColor="@color/primary"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/sgb"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good Morning!"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/sgb"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/sgl"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:background="@drawable/assignment"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Assignment"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/sgb"
+                        android:textSize="20sp"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="20sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/sgm"
+                        android:text="There are many variations of passages of Lorem Ipsum.">
+                    </TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginEnd="20dp"
+
+                android:orientation="vertical"
+                android:background="@color/white">
+                <LinearLayout
+                    android:id="@+id/assin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/assignment"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course : Digital Electronics"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Topic: K-map"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deadline: 10 march 2024"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remaining: 2 Days , 5 hours"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/assignment"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course : OOP II"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Topic: Slide 1 to 5"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deadline: 11 march 2024"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remaining: 3 Days , 5 hours"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/assignment"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course : Accounting"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Topic:  Chapter 3 to Chapter 5"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deadline: 12 april 2024"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remaining: 29 Days , 5 hours"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/assignment"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course : System annalysis and design"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Topic: Chapter 2"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deadline: 21 march 2024"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remaining: 2 Days , 5 hours"
+                        android:fontFamily="@font/sgsb"
+                        android:textColor="@color/black"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

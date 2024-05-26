@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1C1244"
+    tools:context=".CreateSection">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse_1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello "
+                        android:fontFamily="@font/sgb"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anonymous!"
+                        android:textColor="@color/primary"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/sgb"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to  "
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/sgb"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ClassSync."
+                        android:textColor="@color/primary"
+                        android:fontFamily="@font/sgb"
+                        android:textSize="24dp"
+                        ></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CR Name:"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb">
+
+                </TextView>
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Anonymous"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background">
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CR Email:"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb">
+
+                </TextView>
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="example@gmail.com"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background">
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Section Name:"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb">
+
+                </TextView>
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 61_E"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textCapWords"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background">
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Section Key:"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb">
+
+                </TextView>
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 61_E"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background">
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CR Password:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb">
+
+                </TextView>
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example:123456"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background">
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Section Password:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sgb">
+
+                </TextView>
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example:123456"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sgl"
+                    android:background="@drawable/rounded_input_background">
+                </EditText>
+                <Button
+                    android:id="@+id/createSection"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Create Section"
+                    android:background="@drawable/rounded_button_background"
+                    android:fontFamily="@font/sgb"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
